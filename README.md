@@ -1,2 +1,1 @@
-# haskell
-some practice programs in haskell
+Just some haskell program for myself to practice haskell
