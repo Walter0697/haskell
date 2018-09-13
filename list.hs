@@ -190,6 +190,7 @@ spliceList n list = (takeList n list, after n list)
 sumList :: (Integral a) => (List a) -> a
 sumList list = reduce (\x y -> x + y) 0 list
 
+main = undefined
 plus1 = generateSeries (\x -> x + 1) 0
 time2 = generateSeries (\x -> x * 2) 1
 all1 = generateSeries (\x -> x) 1
